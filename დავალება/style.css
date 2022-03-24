@@ -1,0 +1,148 @@
+body{
+    /* height: 100%;
+    width: 100%; */
+    background-image: url("images/bg.svg");
+}
+/* header code starts here */
+
+header{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    margin-top: 34px;
+    margin-left: 140px;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-gap: 40px;
+
+}
+
+li{
+    margin-right: 54px;
+    font-size: 20px;
+    color:#FFFFFF;
+    font-family: poppins-regular;
+}
+.features:hover{
+    color: aqua;
+}
+.products:hover{
+    color: aqua;
+}
+.company:hover{
+    color: aqua;
+}
+.pricing:hover{
+    color: aqua;
+}
+.support:hover{
+    color: aqua;
+}
+.logo:hover{
+    color: aqua;
+}
+.login:hover{
+    color: aqua;
+}
+.register:hover{
+    color: aqua;
+}
+.logo{
+    font-size: 30.68px;
+    font-family: poppins;
+    color:#FFFFFF;
+    margin-top: 26px;
+    margin-left: 91px;
+    display: flex;
+}
+
+.login {
+    position: absolute;
+    width: 56px;
+    height: 30px;
+    margin-left: 1250px;
+    top: 34px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* .rectangle{
+    position: absolute;
+    width: 130px;
+    height: 42px;
+    left: 1349px;
+    top: 28px;
+    display: flex;
+
+} */
+
+.register{
+    background-image: url("images/rectangle.png");
+    width: 105px;
+    height: 31px;
+    margin-top: 30px;
+    margin-left: 143px;
+    padding-top: 11px;
+    padding-left: 25px;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: poppins;
+    
+}
+
+/*header code ends here */
+
+/*body code starts here */
+
+.title{
+    margin-top: 117px;
+    font-size: 45px;
+    color: #FFFFFF;
+    font-family: poppins-regular;
+}
+
+.second-title{
+    margin-top: 30px;
+    font-size: 98px;
+    font-family: poppins-normal;
+    background: linear-gradient(90deg, #00F0FF 0%, #5773FF 46.87%, #FF007A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.third-title {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: poppins-normal;
+    margin-top: 16px;
+}
+
+
+
+
+
+/*body code ends here */
+
+/* font install  */
+@font-face {
+    font-family: poppins;
+    src: url(Poppins-Bold.ttf);
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: poppins-regular;
+    src: url(Poppins-Regular.ttf);
+    font-weight: regular;
+  }
