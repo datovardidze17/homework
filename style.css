@@ -156,6 +156,10 @@ li{
     padding-top: 19px;
 }
 
+.text:hover:hover{
+    color: aqua;
+}
+
 .arrow{
     position: absolute;
     top: 50%;
